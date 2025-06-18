@@ -93,3 +93,9 @@ ________________________________________
 •	Use voice control using Google Assistant + IFTTT
 •	Add a brightness control using PWM
 •	Use Wi-Fi (ESP8266 or ESP32) instead of Bluetooth for remote access
+
+#OUTOUT
+![Image](https://github.com/user-attachments/assets/59392378-2467-4746-8e20-a71b061c9501)
+
+
+
