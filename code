@@ -1,0 +1,18 @@
+char data = 0;
+
+void setup() {
+  pinMode(13, OUTPUT);   // LED connected to digital pin 13
+  Serial.begin(9600);    // Start serial communication at 9600 baud rate
+}
+
+void loop() {
+  if (Serial.available()) {
+    data = Serial.read();   // Read the incoming data
+
+    if (data == '1') {
+      digitalWrite(13, HIGH); // Turn LED ON
+    } else if (data == '0') {
+      digitalWrite(13, LOW);  // Turn LED OFF
+    }
+  }
+}
